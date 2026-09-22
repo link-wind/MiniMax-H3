@@ -1,0 +1,16 @@
+{
+  "plan_id": "h3-same-shot-prompt-15s-windows",
+  "global_prompt": "integrated_multimodal_description: [Strict same-shot continuation] Live-action cinematic short film in one continuous rain-lit cafe scene. The same middle-aged East Asian man is the only speaking protagonist throughout the video. He has short black hair, a clean-shaven face, and wears a dark charcoal suit with a white shirt. Preserve his exact face identity, hairstyle, clothing, body proportions, pose, screen position, scale, gaze direction, camera angle, focal length, depth of field, lighting, color, background geometry, rain pattern, voice identity, speaking style, and emotional state across every segment. The video must remain one uninterrupted locked-off medium close-up with no shot change, no reframing, no camera pan, no camera tilt, no zoom, no cut, no transition, and no viewpoint change. Do not introduce a new character, location, time of day, costume, visual style, subtitles, captions, logos, watermarks, or other written text. Only subtle natural facial motion, mouth motion, blinking, breathing, and continuous speech may change.\n\noverall_soundscape: Continuous rain outside the cafe, quiet indoor room tone, subtle clothing movement, and natural male speech. Keep the ambience, voice identity, loudness, phase, and acoustic space continuous across all segments.\n\nnon_diegetic_music: N/A",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "prompt": "[Same shot, opening] A single uninterrupted locked-off medium close-up of the man in the rain-lit cafe. Keep the camera angle, framing, scale, pose, gaze direction, lighting, background, and composition fixed for the entire segment. He speaks calmly in Chinese with his mouth visible and synchronized. No camera movement and no shot change. <d>[Chinese] 雨下得比我想象中还要大。我们先进去说。</d>",
+      "requested_frames": 362
+    },
+    {
+      "segment_id": "continuation",
+      "prompt": "[Same shot, direct continuation] Continue the exact same locked-off medium close-up from the final frame of the previous segment. Match the previous final pose, face, screen position, scale, camera angle, focal length, lighting, background geometry, rain pattern, and color exactly. Do not turn the man, do not change his gaze direction, do not move the camera, do not reframe, do not zoom, do not pan, do not tilt, do not cut, and do not introduce any new visual event. Only continue subtle facial motion, blinking, breathing, and speech from the current state. Keep the mouth visible and speech synchronized. <d>[Chinese] 我今天来这里，是想把昨天没有说完的话说清楚。我们慢慢说，不着急。</d>",
+      "requested_frames": 362
+    }
+  ]
+}

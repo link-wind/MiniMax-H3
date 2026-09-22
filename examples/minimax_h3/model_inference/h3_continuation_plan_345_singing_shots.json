@@ -1,0 +1,16 @@
+{
+  "plan_id": "h3-continuation-singing-345",
+  "global_prompt": "<SUBJECT>: [subject1] (Real Person) A young adult East Asian woman, approximately 26-32 years old, with long straight black hair falling past her shoulders, wearing a cream knit cardigan over a simple white top. <Scene>: The scene is set in a small, quiet late-night cafe at the corner of a softly lit stage area. Behind her there is a warm exposed-brick wall with a few blurred string lights and a tall plant; a single warm pendant light from above is the main source, giving a gentle, slightly low-key, intimate atmosphere. The scene is captured with a static camera from an eye-level medium close-up using a 50mm lens with a shallow depth of field that keeps her in sharp focus while softly blurring the background. No background music or instruments are present; only faint room tone and her singing voice are audible. <Event>: The entire video is one continuous shot with a fixed camera and no cut, lasting about 27 seconds. [subject1] sits on a wooden stool facing slightly left of the camera and sings the same slow, gentle song to an unseen small audience, with a soft, clear female singing voice and natural breathing between phrases. Her mouth stays clearly visible and synchronized with the lyrics throughout. She makes only subtle motions: gentle swaying with the song, occasional closing of her eyes, and small hand movements near her lap. The setting stays unchanged and no other person enters the frame.",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, opening] The woman is already seated on the wooden stool in the quiet cafe corner, facing slightly left of the camera, and begins to sing softly with a gentle, slow melody, her mouth clearly visible and synchronized with the lyrics, <d>[Chinese] 夜风穿过无人的街，昏黄的灯陪我到天亮；有些话来不及对你说，就让它化作歌声轻轻唱。</d> She takes a soft breath, closes her eyes briefly, and sways very gently with the melody. Keep the static eye-level medium close-up, warm pendant lighting, cream cardigan, and blurred brick-wall background exactly unchanged; no other person enters the frame."
+    },
+    {
+      "segment_id": "continuation",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same woman, cafe corner, warm pendant light, framing, and static camera with no cut. She stays on the stool and continues the same song without interruption, singing softly with her mouth clearly visible and synchronized with the lyrics, <d>[Chinese] 如果时间能停在这一刻，我愿把心事都唱给你听；别让遗憾留在转身之后，就让这首歌陪你到天明。</d> After the last phrase she opens her eyes, gives a small gentle smile, and holds a calm expression with her mouth closed. Keep the same singing voice, faint room tone, and natural subtle motions; no other person enters the frame."
+    }
+  ]
+}

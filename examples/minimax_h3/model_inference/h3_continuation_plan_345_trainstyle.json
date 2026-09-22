@@ -1,0 +1,14 @@
+{
+  "plan_id": "h3-continuation-trainstyle-345",
+  "global_prompt": "<SUBJECT>: [subject1] (Real Person) A middle-aged East Asian male, approximately 45-55 years old, with short black hair, short sideburns, and a clean-shaven face. He is wearing a dark navy blazer over a light gray crew-neck sweater. <Scene>: The scene is set in a quiet, modestly furnished private study at night. The background features a bookshelf filled with books and a few framed photos, a wooden desk, and a window covered by heavy curtains on the left side of the frame. The scene is captured with a static camera from an eye-level medium close-up, using a 50mm lens with a shallow depth of field that keeps the man in sharp focus while softly blurring the background. The lighting is provided by artificial light, with soft warm light from a desk lamp on the left, resulting in a warm tone, low-key lighting, and medium saturation, presented with a modern cinematic HD visual texture. The overall atmosphere is calm, reflective, and intimate. No background music is present; only faint room tone and the man's voice are audible. <Event>: The entire video is one continuous shot with a fixed camera and no cut. From 0:00 to 14:4, [subject1] sits facing slightly left of the camera and speaks to an unseen listener in a steady, thoughtful tone [speech content 1] [time_range:0-14.4]. He only makes natural subtle motions during this period: occasional blinking, slow breathing, small shifts of his gaze, and light hand gestures near the desk. From 14:4 to 27:1, he continues the same conversation without interruption [speech content 2] [time_range:14.4-27.1], keeping the same posture, position, and framing. His mouth remains clearly visible and synchronized with the speech throughout, and no other person enters the frame.",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "requested_frames": 345
+    },
+    {
+      "segment_id": "continuation",
+      "requested_frames": 345
+    }
+  ]
+}

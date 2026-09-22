@@ -1,0 +1,31 @@
+{
+  "plan_id": "h3-continuation-trainstyle-60s-shots",
+  "global_prompt": "<SUBJECT>: [subject1] (Real Person) A middle-aged East Asian male, approximately 45-55 years old, with short black hair, short sideburns, and a clean-shaven face. He is wearing a dark navy blazer over a light gray crew-neck sweater. <Scene>: The scene is set in a quiet, modestly furnished private study at night. The background features a bookshelf filled with books and a few framed photos, a wooden desk, and a window covered by heavy curtains on the left side of the frame. The scene is captured with a static camera from an eye-level medium close-up, using a 50mm lens with a shallow depth of field that keeps the man in sharp focus while softly blurring the background. The lighting is provided by artificial light, with soft warm light from a desk lamp on the left, resulting in a warm tone, low-key lighting, and medium saturation, presented with a modern cinematic HD visual texture. The overall atmosphere is calm, reflective, and intimate. No background music is present; only faint room tone and the man's voice are audible. <Event>: The entire video is one continuous shot with a fixed camera and no cut, lasting about 65 seconds. [subject1] sits facing slightly left of the camera behind the wooden desk and speaks to an unseen listener in a calm, reflective, steady tone, delivering clear and natural Chinese dialogue with his mouth visible and synchronized to the speech throughout. He pauses naturally between sentences and makes only subtle motions: occasional blinking, slow breathing, small shifts of his gaze, light hand gestures near the desk, and at most one small quiet action per passage. The setting stays a quiet private study at night, and no other person enters the frame.",
+  "segments": [
+    {
+      "segment_id": "window_1",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, opening] The man is already seated behind the wooden desk, facing slightly left of the camera, and begins speaking to an unseen listener in a steady, thoughtful tone. Hold the static eye-level medium close-up with the shallow depth of field and soft warm desk-lamp light described above; keep his face, dark navy blazer, light gray crew-neck sweater, and the softly blurred bookshelf background exactly unchanged. He speaks clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 这么晚把你叫来，是因为有件事，我考虑了很久，还是想当面和你说清楚。</d> He pauses, takes a quiet sip of tea, sets the cup down, then adds with a calm tone, <d>[Chinese] 希望你不要觉得我冒昧。</d> He makes only natural subtle motions, and no other person enters the frame."
+    },
+    {
+      "segment_id": "window_2",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, private study, bookshelf background, warm desk-lamp lighting, framing, and static camera with no cut. He stays in the same posture and continues the same conversation without interruption, speaking clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 还记得三年前我们一起做过的那个项目吗？那次的决定，我一直觉得亏欠你。</d> He slowly straightens a notebook on the desk while speaking, then looks back toward the unseen listener. Keep the same voice, faint room tone, and natural subtle motions throughout; no other person enters the frame."
+    },
+    {
+      "segment_id": "window_3",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, private study, bookshelf background, warm desk-lamp lighting, framing, and static camera with no cut. He stays in the same posture and continues speaking clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 这几天我把那封邮件又看了好几遍，终于想明白，问题其实不在你，是我自己太想证明什么了。</d> His gaze briefly drifts toward the curtained window, then returns to the unseen listener. Keep the same voice, faint room tone, and natural subtle motions; no other person enters the frame."
+    },
+    {
+      "segment_id": "window_4",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, private study, bookshelf background, warm desk-lamp lighting, framing, and static camera with no cut. He stays in the same posture and continues speaking clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 我一直没说出口，是因为怕你觉得我在找借口。可这些话压在心底越久，我们之间的距离就越远。</d> He leans forward very slightly toward the unseen listener. Keep the same voice, faint room tone, and natural subtle motions; no other person enters the frame."
+    },
+    {
+      "segment_id": "window_5",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, private study, bookshelf background, warm desk-lamp lighting, framing, and static camera with no cut. He stays in the same posture and speaks clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 所以今天，我想正式跟你说一声抱歉，也希望能再给我一次机会，让我们把这件事好好聊完。</d> After finishing, he holds a calm, expectant expression with his mouth closed. Keep the same voice, faint room tone, and natural subtle motions; no other person enters the frame."
+    }
+  ]
+}

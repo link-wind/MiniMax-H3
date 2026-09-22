@@ -1,0 +1,16 @@
+{
+  "plan_id": "h3-continuation-lora-345-test",
+  "global_prompt": "integrated_multimodal_description: [Production continuity] Live-action cinematic short film in one continuous rain-lit cafe scene. The same middle-aged East Asian man is the only speaking protagonist throughout the video. Preserve his face, hairstyle, clothing, body proportions, voice identity, cafe layout, rain-covered windows, warm tungsten lighting, camera motion, and continuous room tone. Do not introduce a new character, location, costume, subtitles, logos, or written text.",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "prompt": "[Shot 1, opening] The man enters the rain-lit cafe and walks slowly toward a table near the window. Use a stable medium-wide shot with a slow natural push-in. He speaks calmly in Chinese with his mouth visible and synchronized. <d>[Chinese] 雨下得比我想象中还要大。我们先进去说。</d>",
+      "requested_frames": 345
+    },
+    {
+      "segment_id": "continuation",
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, cafe, lighting, weather, framing, and camera motion. He remains near the table and continues speaking while turning toward the rain-covered window. Keep the same voice, room tone, rain, and acoustic space. <d>[Chinese] 我今天来这里，是想把昨天没有说完的话说清楚。</d>",
+      "requested_frames": 345
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "plan_id": "h3-continuation-single-shot-345",
+  "global_prompt": "integrated_multimodal_description: [Strict single-shot production continuity] A live-action cinematic interview recorded as one uninterrupted single shot. The same middle-aged East Asian man is the only person on screen for the entire video; his interviewer stays off-camera and is never seen. Preserve his exact face identity, hairstyle, clothing, body proportions, voice identity, the room, the lighting, the lens, and the static camera framing across the whole timeline. There is no cut, no second camera, no B-roll, no camera movement, no reframing, no zoom, no change of shot size, and no change of location, costume, lighting, or soundscape anywhere in the video.",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "prompt": "[Shot 1, opening] A locked-off medium close-up of the man seated at a desk in a quiet, softly lit room at night, facing slightly left of the camera and speaking to an off-camera interviewer. The camera is completely static with no pan, tilt, zoom, or reframe. He speaks naturally and continuously in Chinese with his mouth clearly visible and synchronized; only subtle facial expressions, blinking, breathing, and small hand gestures accompany the speech. No one else enters the frame, the background stays unchanged, there is no music, and no subtitle or text appears. <d>[Chinese] 这些年我一直在想，那天在站台上，我们是不是都太着急了。</d>",
+      "requested_frames": 345
+    },
+    {
+      "segment_id": "continuation",
+      "prompt": "[Shot 1, direct continuation] Continue the same locked-off single shot from the exact final frame of the previous segment: the same man, same seat, same static medium close-up, same room, same night lighting, same shallow depth of field, and the same camera angle and framing. Do not move the camera, do not cut, do not change the shot size, do not change his pose or gaze direction, do not stand up, do not walk, and do not introduce any new character, object, or visual event. Only continue natural talking-head motion: blinking, breathing, subtle expression changes, and synchronized Chinese speech with the mouth visible. <d>[Chinese] 现在想想，有些话其实可以慢慢说，不必非要在那一分钟里讲完。</d>",
+      "requested_frames": 345
+    }
+  ]
+}

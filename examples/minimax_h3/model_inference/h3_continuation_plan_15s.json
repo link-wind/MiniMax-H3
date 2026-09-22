@@ -1,0 +1,16 @@
+{
+  "plan_id": "h3-structured-prompt-15s-windows",
+  "global_prompt": "integrated_multimodal_description: [Production continuity] Live-action cinematic short film in one continuous rain-lit cafe scene. The same middle-aged East Asian man is the only speaking protagonist throughout the video. He has short black hair, a clean-shaven face, and wears a dark charcoal suit with a white shirt. Preserve his face, hairstyle, clothing, body proportions, voice identity, speaking style, and emotional state across every segment. Preserve the cafe layout, wooden furniture, rain-covered windows, warm tungsten lighting, muted amber and green color palette, shallow depth of field, realistic skin texture, and natural cinematic motion. Do not introduce a new character, location, time of day, costume, visual style, subtitles, captions, logos, watermarks, or other written text.\n\noverall_soundscape: Continuous rain outside the cafe, quiet indoor room tone, subtle footsteps and clothing movement, and natural male speech. Keep the ambience, voice identity, loudness, and acoustic space continuous across all segments.\n\nnon_diegetic_music: N/A",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "prompt": "[Shot 1, opening] The man enters the rain-lit cafe and walks slowly from the entrance toward a table near the window. Begin with a stable medium-wide shot, then make a slow natural push-in to a medium shot. He looks toward the camera and starts speaking calmly in Chinese. His mouth remains visible and synchronized with the speech. <d>[Chinese] 雨下得比我想象中还要大。我们先进去说。</d>",
+      "requested_frames": 362
+    },
+    {
+      "segment_id": "continuation",
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, cafe, lighting, weather, framing, and camera motion. The man remains near the table and continues speaking to the same off-camera conversation partner. The camera slowly follows him as he turns toward the rain-covered window. Do not cut to a new location or change his clothes. Keep his mouth visible and speech synchronized. The rain, room tone, voice identity, speaking style, and acoustic space remain continuous. <d>[Chinese] 我今天来这里，是想把昨天没有说完的话说清楚。我们慢慢说，不着急。</d>",
+      "requested_frames": 362
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": "h3-t2va-60s-v1",
+  "single_shot_60s": [
+    {
+      "id": "60s_singing_mv",
+      "global_prompt": "integrated_multimodal_description: [One continuous live-action music-video, single singer] A young East Asian male singer in his late twenties, short black hair, wearing a midnight-blue velvet jacket over a white tee, stands alone on a softly lit rooftop at dusk. Warm city lights and a slow-moving sky form the background. He sings an original heartfelt Mandarin ballad directly to the camera with precise lip-sync throughout. The camera stays on a natural medium portrait framing with gentle, motivated movement. The performance is photorealistic, emotionally expressive, and never becomes animation or stylization.",
+      "segments": [
+        {"segment_id": "w1", "requested_frames": 345, "prompt": "[Same shot, opening] The man takes a breath, looks to camera, and begins the first verse in a quiet, intimate tone, his mouth moving precisely with the vocals: <d>[Chinese] 城市的灯都亮了，我还在等你的回音。</d> A faint breeze moves his jacket; the rope lights on the railing glow softly. Keep his identity, velvet jacket, rooftop, dusk sky, and perfect lip-sync unchanged."},
+        {"segment_id": "w2", "requested_frames": 345, "prompt": "[Same shot, continuation] The leading phrase resolves as he builds into the pre-chorus with more energy, shifting his weight and gesturing with one hand, mouth perfectly in sync: <d>[Chinese] 如果时间能倒回，我多想再听你说一遍。</d> The dusk deepens into a purple-blue sky; keep the same man, jacket, framing, and lip-sync, no cut."},
+        {"segment_id": "w3", "requested_frames": 345, "prompt": "[Same shot, continuation] He delivers the chorus with full, passionate delivery, head lifting and eyes bright, articulation wide and rhythmic, mouth locked to every syllable: <d>[Chinese] 我把思念写进风里，等你吹回我身边。</d> A subtle push-in frames his face; intensity rises while his identity, jacket, rooftop, and background stay identical."},
+        {"segment_id": "w4", "requested_frames": 345, "prompt": "[Same shot, continuation] The chorus settles and he carries a sustained note, jaw and lips controlled and precise, voice softening: <d>[Chinese] 就算世界都沉默，我也为你唱这一首。</d> The camera eases back to the medium portrait as city lights brighten behind him; lip-sync remains exact."},
+        {"segment_id": "w5", "requested_frames": 345, "prompt": "[Same shot, continuation] He finishes the final phrase quietly, a gentle smile as the last notes end, lips closing naturally: <d>[Chinese] 晚安，等你在梦的尽头。</d> The night sky holds steady; keep the same man, costume, rooftop, and framing throughout, no other characters."}
+      ]
+    },
+    {
+      "id": "60s_landscape_nature",
+      "global_prompt": "integrated_multimodal_description: [One continuous observational nature film, no human subjects] A sweeping alpine valley at dawn, with a glacial river winding through pine forest and misted peaks catching golden first light. A calm, deep male voiceover narrates in Chinese over delicate birdsong, wind, and distant water. The look is photorealistic cinematic documentary, slow and meditative, with a gentle aerial push across the valley.",
+      "segments": [
+        {"segment_id": "w1", "requested_frames": 345, "prompt": "[Same shot, opening] The camera begins a slow aerial glide over a misted alpine valley at dawn, rivers and pines below. A calm male voiceover begins: <d>[Chinese] 黎明从山谷深处醒来，河流刚刚开口说话。</d> Birdsong and light wind fill the audio bed; keep the same valley, mist, and golden light."},
+        {"segment_id": "w2", "requested_frames": 345, "prompt": "[Same shot, continuation] The glide continues eastward as light spreads across the peaks, low clouds streaming past. The voiceover continues steadily: <d>[Chinese] 每一座山都收藏着千万年的雪与寂静。</d> The river sound grows slightly louder; no people appear, same continuous aerial view."},
+        {"segment_id": "w3", "requested_frames": 345, "prompt": "[Same shot, continuation] The camera descends a little over a pine ridge into a sunlit clearing beside the river. The narrator speaks: <d>[Chinese] 水的低语，是这片土地最古老的歌。</d> Birdsong returns; keep the identical valley, pines, river, and lighting, no cuts."},
+        {"segment_id": "w4", "requested_frames": 345, "prompt": "[Same shot, continuation] The aerial view holds over the winding river as morning mist finally thins. The voice pauses on the sound of wind and water before continuing: <d>[Chinese] 时间在这里，走得很慢，也很温柔。</d> Same continuous camera, same valley, no subjects."},
+        {"segment_id": "w5", "requested_frames": 345, "prompt": "[Same shot, continuation] The camera slowly rises for a final wide view as full daylight washes the peaks. The narrator ends softly: <d>[Chinese] 这就是山川最初与最后的样子。</d> The frame holds a peaceful wide vista and fades gently; no people, no text, same continuous shot."}
+      ]
+    },
+    {
+      "id": "60s_duologue_drama",
+      "global_prompt": "integrated_multimodal_description: [One continuous dimly lit intimate drama, two characters] A middle-aged man and woman sit facing each other at a small wooden table in a cramped, warmly lit Chinese city apartment at night. Tension and tenderness alternate as they argue and reconcile in Mandarin dialogue. The scene is photorealistic live-action, shallow depth of field, close medium shots, natural handheld subtlety and no hard cuts within each segment. No subtitles.",
+      "segments": [
+        {"segment_id": "w1", "requested_frames": 345, "prompt": "[Same shot, opening] The man looks down, then speaks quietly, voice strained: <d>[Chinese] 这些年，我一直没敢跟你说真话。</d> The woman watches him, jaw tight, the ceiling lamp casting soft shadows; keep their faces and the small wooden table identical."},
+        {"segment_id": "w2", "requested_frames": 345, "prompt": "[Same shot, continuation] She replies with rising hurt, leaning forward: <d>[Chinese] 那你现在说，我想听。</d> He meets her eyes, a long beat; the same tight framing, warm lamp, and quiet room tone continue, no cut."},
+        {"segment_id": "w3", "requested_frames": 345, "prompt": "[Same shot, continuation] He admits his feelings with a softer voice, reaching for her hand: <d>[Chinese] 我是怕失去你，才一直瞒着。</d> She blinks, expression softening; the shallow focus holds on their faces, same setting and lighting."},
+        {"segment_id": "w4", "requested_frames": 345, "prompt": "[Same shot, continuation] She laughs lightly through the emotion, shaking her head: <d>[Chinese] 你呀，总是把心事藏得那么深。</d> He almost smiles, shoulders easing; their faces and the warm apartment remain identical, dialogue crisp and readable."},
+        {"segment_id": "w5", "requested_frames": 345, "prompt": "[Same shot, continuation] They hold a quiet moment, then he murmurs: <d>[Chinese] 从今往后，我什么都告诉你。</d> She nods, taking his hand; the frame holds as the lamp flickers gently, same two people, same room, no cut, no text."}
+      ]
+    },
+    {
+      "id": "60s_dance_action",
+      "global_prompt": "integrated_multimodal_description: [One continuous high-energy dance performance] A female street dancer with a dark high ponytail and a neon-trimmed black athletic outfit performs a powerful contemporary dance routine on a wide concrete warehouse floor with a few overhead spotlights. An intense electronic beat drives the track; her sharp, rhythmic motions fill the frame. Photorealistic live-action, dynamic but steady camera, no cuts within each segment.",
+      "segments": [
+        {"segment_id": "w1", "requested_frames": 345, "prompt": "[Same shot, opening] The beat drops and she explodes into a fast eight-count, arms snapping and body pulsing in time to the bass: <d>[Music intensifies]</d> Keep her ponytail, neon outfit, warehouse, spotlights, and rhythm identical as the camera holds a medium track."},
+        {"segment_id": "w2", "requested_frames": 345, "prompt": "[Same shot, continuation] She transitions into a floorwork sequence, rolling and popping on the concrete, movements locked to the drum hits: <d>[Music continues, beat-driven]</d> Same dancer, same neon outfit, same warehouse, sustained energy and steady camera."},
+        {"segment_id": "w3", "requested_frames": 345, "prompt": "[Same shot, continuation] She springs up into a sharp freestyle burst, hair whipping, silhouetted against a spotlight: <d>[Beat peaks, driving]</d> Keep her identity, neon outfit, and warehouse background; the camera pushes in slightly while flow remains continuous."},
+        {"segment_id": "w4", "requested_frames": 345, "prompt": "[Same shot, continuation] She slows into controlled isolations during a breakdown, then builds again into a fast sequence: <d>[Beat shifts to a breakdown then returns]</d> Same dancer, costume, space, and continuous motion; no cuts."},
+        {"segment_id": "w5", "requested_frames": 345, "prompt": "[Same shot, continuation] She ends with a powerful pose as the final beat hits, breathing hard, holding the frame: <d>[Final hit, music resolves]</d> The spotlights dim slightly; keep the same dancer, neon outfit, warehouse, and continuous shot."}
+      ]
+    },
+    {
+      "id": "60s_product_ad",
+      "global_prompt": "integrated_multimodal_description: [One continuous premium product commercial] A sleek matte-black smartwatch with a bright AMOLED display rests on a polished stone surface in a minimal bright studio. Slow elegant camera moves reveal its rotating crown and glowing screen. A polished male voiceover in Chinese, clean modern product lighting, crisp shallow focus, photorealistic commercial style, no cuts within a segment, no subtitles.",
+      "segments": [
+        {"segment_id": "w1", "requested_frames": 345, "prompt": "[Same shot, opening] A slow push-in reveals the matte-black smartwatch on dark polished stone, its screen softly waking: <d>[Chinese] 每一帧，都经过千锤百炼。</d> Clean studio lighting, shallow focus, premium commercial feel; keep the identical watch and surface."},
+        {"segment_id": "w2", "requested_frames": 345, "prompt": "[Same shot, continuation] The camera arcs gently as the crown turns and the watch face cycles through elegant fitness and time watch faces: <d>[Chinese] 精确到每一次心跳的距离。</d> Same black watch, stone surface, studio lighting; steady continuous move."},
+        {"segment_id": "w3", "requested_frames": 345, "prompt": "[Same shot, continuation] A close-up dwells on the glowing display, then the camera slowly pulls back to reveal the minimal setup: <d>[Chinese] 从此，科技只为你存在。</d> Keep the identical watch, surface, and lighting; no text overlays."},
+        {"segment_id": "w4", "requested_frames": 345, "prompt": "[Same shot, continuation] The watch briefly raises a soft reflection and the camera holds a tasteful three-quarter view: <d>[Chinese] 通勤、运动、健康，尽在一腕之间。</d> Same product, same minimal studio, clean and continuous."},
+        {"segment_id": "w5", "requested_frames": 345, "prompt": "[Same shot, continuation] A final slow pull-out frames the watch centered on the stone as the voiceover lands the tagline: <d>[Chinese] 最好的陪伴，是懂你每一刻。</d> The studio settles; keep the identical product, surface, lighting, and continuous camera, no text."}
+      ]
+    }
+  ]
+}

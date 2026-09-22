@@ -1,0 +1,16 @@
+{
+  "plan_id": "h3-continuation-trainstyle-shots-345",
+  "global_prompt": "<SUBJECT>: [subject1] (Real Person) A middle-aged East Asian male, approximately 45-55 years old, with short black hair, short sideburns, and a clean-shaven face. He is wearing a dark navy blazer over a light gray crew-neck sweater. <Scene>: The scene is set in a quiet, modestly furnished private study at night. The background features a bookshelf filled with books and a few framed photos, a wooden desk, and a window covered by heavy curtains on the left side of the frame. The scene is captured with a static camera from an eye-level medium close-up, using a 50mm lens with a shallow depth of field that keeps the man in sharp focus while softly blurring the background. The lighting is provided by artificial light, with soft warm light from a desk lamp on the left, resulting in a warm tone, low-key lighting, and medium saturation, presented with a modern cinematic HD visual texture. The overall atmosphere is calm, reflective, and intimate. No background music is present; only faint room tone and the man's voice are audible. <Event>: The entire video is one continuous shot with a fixed camera and no cut, lasting from 0:00 to 27.1 seconds. [subject1] sits facing slightly left of the camera behind the wooden desk and speaks to an unseen listener in a calm, reflective, steady tone, delivering clear and natural Chinese dialogue with his mouth visible and synchronized to the speech throughout. He makes only natural subtle motions: occasional blinking, slow breathing, small shifts of his gaze, and light hand gestures near the desk. The setting stays a quiet private study at night, and no other person enters the frame.",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, opening] The man is already seated behind the wooden desk, facing slightly left of the camera, and begins speaking to an unseen listener in a steady, thoughtful tone. Hold the static eye-level medium close-up with the shallow depth of field and soft warm desk-lamp light described above; keep his face, dark navy blazer, light gray crew-neck sweater, and the softly blurred bookshelf background exactly unchanged. He speaks clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 你来了，先坐吧。我一直在想，要怎么开口跟你说这件事。</d> He pauses briefly, then adds with a calm tone, <d>[Chinese] 其实有些话，放在心里越久，就越难讲清楚。</d> He makes only natural subtle motions while speaking, and no other person enters the frame."
+    },
+    {
+      "segment_id": "continuation",
+      "requested_frames": 345,
+      "prompt": "[Shot 1, continuation] Continue directly from the exact final moment of the previous segment. Preserve the same man, private study, bookshelf background, warm desk-lamp lighting, framing, and static camera with no cut. He stays in the same posture and continues the same conversation without interruption, speaking clearly in Chinese with his mouth visible and synchronized, <d>[Chinese] 昨天我说的那些，不是一时气话，我是认真的。</d> He looks slightly toward the unseen listener and continues, <d>[Chinese] 我想了很久，决定还是把真实的想法告诉你。</d> Keep the same voice, faint room tone, and natural subtle motions throughout; no other person enters the frame."
+    }
+  ]
+}

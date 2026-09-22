@@ -1,0 +1,16 @@
+{
+  "plan_id": "demo-two-window",
+  "global_prompt": "A realistic cinematic short film, consistent protagonist and location, no subtitles or watermark.",
+  "segments": [
+    {
+      "segment_id": "opening",
+      "prompt": "The protagonist walks into a rain-lit cafe and begins speaking.",
+      "requested_frames": 243
+    },
+    {
+      "segment_id": "continuation",
+      "prompt": "The conversation continues naturally as the camera follows the protagonist toward the window.",
+      "requested_frames": 243
+    }
+  ]
+}
